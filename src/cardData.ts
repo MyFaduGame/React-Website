@@ -1,0 +1,262 @@
+export const cardData = [
+  {
+    id: 1,
+    title: "Cotton T-Shirt Bra",
+    desc: "Everyday comfort with smooth finish",
+    images: [
+      "https://images.pexels.com/photos/6311672/pexels-photo-6311672.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/6311658/pexels-photo-6311658.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/3757695/pexels-photo-3757695.jpeg?auto=compress&cs=tinysrgb&w=600",
+    ],
+  },
+  {
+    id: 2,
+    title: "Lace Push-Up Bra",
+    desc: "Perfect lift with soft lace detailing",
+    images: [
+      "https://images.pexels.com/photos/6311670/pexels-photo-6311670.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/6311684/pexels-photo-6311684.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/6311660/pexels-photo-6311660.jpeg?auto=compress&cs=tinysrgb&w=600",
+    ],
+  },
+  {
+    id: 3,
+    title: "Seamless Panty",
+    desc: "Invisible fit under tight outfits",
+    images: [
+      "https://images.pexels.com/photos/6311661/pexels-photo-6311661.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/6311655/pexels-photo-6311655.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/6311679/pexels-photo-6311679.jpeg?auto=compress&cs=tinysrgb&w=600",
+    ],
+  },
+  {
+    id: 4,
+    title: "Full Coverage Bra",
+    desc: "Maximum support with breathable fabric",
+    images: [
+      "https://images.pexels.com/photos/6311639/pexels-photo-6311639.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/6311674/pexels-photo-6311674.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/6311659/pexels-photo-6311659.jpeg?auto=compress&cs=tinysrgb&w=600",
+    ],
+  },
+  {
+    id: 5,
+    title: "Sports Bra",
+    desc: "High stretch and support for workouts",
+    images: [
+      "https://images.pexels.com/photos/6311679/pexels-photo-6311679.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/3757695/pexels-photo-3757695.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/6311670/pexels-photo-6311670.jpeg?auto=compress&cs=tinysrgb&w=600",
+    ],
+  },
+  {
+    id: 6,
+    title: "Lace Bikini Panty",
+    desc: "Soft lace trim with a perfect hip fit",
+    images: [
+      "https://images.pexels.com/photos/6311656/pexels-photo-6311656.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/6311668/pexels-photo-6311668.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/6311651/pexels-photo-6311651.jpeg?auto=compress&cs=tinysrgb&w=600",
+    ],
+  },
+  {
+    id: 7,
+    title: "Satin Camisole",
+    desc: "Elegant satin top for layering",
+    images: [
+      "https://images.pexels.com/photos/6311683/pexels-photo-6311683.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/6311681/pexels-photo-6311681.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/6311666/pexels-photo-6311666.jpeg?auto=compress&cs=tinysrgb&w=600",
+    ],
+  },
+  {
+    id: 8,
+    title: "Lounge Shorts",
+    desc: "Soft & breathable indoor comfort shorts",
+    images: [
+      "https://images.pexels.com/photos/3757698/pexels-photo-3757698.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/3757696/pexels-photo-3757696.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/3757700/pexels-photo-3757700.jpeg?auto=compress&cs=tinysrgb&w=600",
+    ],
+  },
+  {
+    id: 9,
+    title: "Nightwear Pajama Set",
+    desc: "Soft cotton with relaxed fit",
+    images: [
+      "https://images.pexels.com/photos/6311651/pexels-photo-6311651.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/3757702/pexels-photo-3757702.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/3757701/pexels-photo-3757701.jpeg?auto=compress&cs=tinysrgb&w=600",
+    ],
+  },
+  {
+    id: 10,
+    title: "Thermal Inner Top",
+    desc: "Winter warmth with soft lining",
+    images: [
+      "https://images.pexels.com/photos/6311685/pexels-photo-6311685.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/6311657/pexels-photo-6311657.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/6311662/pexels-photo-6311662.jpeg?auto=compress&cs=tinysrgb&w=600",
+    ],
+  },
+  {
+    id: 11,
+    title: "Cotton Camisole",
+    desc: "Daily wear light inner top",
+    images: [
+      "https://images.pexels.com/photos/6311664/pexels-photo-6311664.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/6311659/pexels-photo-6311659.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/6311678/pexels-photo-6311678.jpeg?auto=compress&cs=tinysrgb&w=600",
+    ],
+  },
+  {
+    id: 12,
+    title: "Boyshort Panty",
+    desc: "Full hip coverage with soft cotton",
+    images: [
+      "https://images.pexels.com/photos/6311655/pexels-photo-6311655.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/6311680/pexels-photo-6311680.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/6311653/pexels-photo-6311653.jpeg?auto=compress&cs=tinysrgb&w=600",
+    ],
+  },
+  {
+    id: 13,
+    title: "Lace Bralette",
+    desc: "Stylish comfort with wire-free support",
+    images: [
+      "https://images.pexels.com/photos/6311682/pexels-photo-6311682.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/6311670/pexels-photo-6311670.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/6311663/pexels-photo-6311663.jpeg?auto=compress&cs=tinysrgb&w=600",
+    ],
+  },
+  {
+    id: 14,
+    title: "Padded Strapless Bra",
+    desc: "Stay-up support for off-shoulder outfits",
+    images: [
+      "https://images.pexels.com/photos/6311677/pexels-photo-6311677.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/6311681/pexels-photo-6311681.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/6311673/pexels-photo-6311673.jpeg?auto=compress&cs=tinysrgb&w=600",
+    ],
+  },
+  {
+    id: 15,
+    title: "Bridal Lingerie Set",
+    desc: "Delicate lace design for special moments",
+    images: [
+      "https://images.pexels.com/photos/3757695/pexels-photo-3757695.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/6311671/pexels-photo-6311671.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/6311669/pexels-photo-6311669.jpeg?auto=compress&cs=tinysrgb&w=600",
+    ],
+  },
+  {
+    id: 16,
+    title: "Shapewear Bodysuit",
+    desc: "Smooth curves under dresses",
+    images: [
+      "https://images.pexels.com/photos/6311667/pexels-photo-6311667.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/3757699/pexels-photo-3757699.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/6311639/pexels-photo-6311639.jpeg?auto=compress&cs=tinysrgb&w=600",
+    ],
+  },
+  {
+    id: 17,
+    title: "Thermal Leggings",
+    desc: "Soft fleece-lined warm leggings",
+    images: [
+      "https://images.pexels.com/photos/3757697/pexels-photo-3757697.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/3757704/pexels-photo-3757704.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/3757696/pexels-photo-3757696.jpeg?auto=compress&cs=tinysrgb&w=600",
+    ],
+  },
+  {
+    id: 18,
+    title: "Cycling Shorts",
+    desc: "Soft stretch shorts for heavy movement",
+    images: [
+      "https://images.pexels.com/photos/3757710/pexels-photo-3757710.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/3757711/pexels-photo-3757711.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/3757712/pexels-photo-3757712.jpeg?auto=compress&cs=tinysrgb&w=600",
+    ],
+  },
+  {
+    id: 19,
+    title: "Night Slip Dress",
+    desc: "Comfortable silky slip dress",
+    images: [
+      "https://images.pexels.com/photos/6311654/pexels-photo-6311654.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/6311676/pexels-photo-6311676.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/6311661/pexels-photo-6311661.jpeg?auto=compress&cs=tinysrgb&w=600",
+    ],
+  },
+  {
+    id: 20,
+    title: "High Waist Panty",
+    desc: "Comfort shaping with full coverage",
+    images: [
+      "https://images.pexels.com/photos/6311679/pexels-photo-6311679.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/6311636/pexels-photo-6311636.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/6311665/pexels-photo-6311665.jpeg?auto=compress&cs=tinysrgb&w=600",
+    ],
+  },
+  {
+    id: 21,
+    title: "Printed Bikini Set",
+    desc: "Fun stylish prints for everyday wear",
+    images: [
+      "https://images.pexels.com/photos/3757706/pexels-photo-3757706.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/3757708/pexels-photo-3757708.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/3757709/pexels-photo-3757709.jpeg?auto=compress&cs=tinysrgb&w=600",
+    ],
+  },
+  {
+    id: 22,
+    title: "Winter Thermal Set",
+    desc: "Full inner suit for cold days",
+    images: [
+      "https://images.pexels.com/photos/3757713/pexels-photo-3757713.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/3757714/pexels-photo-3757714.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/3757715/pexels-photo-3757715.jpeg?auto=compress&cs=tinysrgb&w=600",
+    ],
+  },
+  {
+    id: 23,
+    title: "Half Slip Skirt",
+    desc: "Smooth lining under dresses",
+    images: [
+      "https://images.pexels.com/photos/6311681/pexels-photo-6311681.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/6311682/pexels-photo-6311682.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/6311683/pexels-photo-6311683.jpeg?auto=compress&cs=tinysrgb&w=600",
+    ],
+  },
+  {
+    id: 24,
+    title: "Non-Wire Comfort Bra",
+    desc: "Wireless soft bra for all day ease",
+    images: [
+      "https://images.pexels.com/photos/6311656/pexels-photo-6311656.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/6311678/pexels-photo-6311678.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/6311664/pexels-photo-6311664.jpeg?auto=compress&cs=tinysrgb&w=600",
+    ],
+  },
+  {
+    id: 25,
+    title: "Printed Night Gown",
+    desc: "Light fabric nighty with floral pattern",
+    images: [
+      "https://images.pexels.com/photos/3757716/pexels-photo-3757716.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/3757717/pexels-photo-3757717.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/3757718/pexels-photo-3757718.jpeg?auto=compress&cs=tinysrgb&w=600",
+    ],
+  },
+  {
+    id: 26,
+    title: "Cotton Slip Dress",
+    desc: "Light inner dress for long outfits",
+    images: [
+      "https://images.pexels.com/photos/6311685/pexels-photo-6311685.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/6311686/pexels-photo-6311686.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/6311687/pexels-photo-6311687.jpeg?auto=compress&cs=tinysrgb&w=600",
+    ],
+  },
+];
