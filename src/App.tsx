@@ -26,6 +26,7 @@ const App = () => {
   const formRef = useRef<any>(null);
   const [viewerOpen, setViewerOpen] = useState(false);
   const [viewerImages, setViewerImages] = useState<any[]>([]);
+  const [loading, setLoading] = useState(false);
 
   // Handlers for product grid and modal
   const buy = (p: any) => {
@@ -44,22 +45,29 @@ const App = () => {
       return;
     }
 
-    const body = new URLSearchParams(formValue).toString();
+    setLoading(true);
+    try {
+      const body = new URLSearchParams(formValue).toString();
 
-    await fetch(
-      "https://script.google.com/macros/s/AKfycbyX5hZVLQJV_G3gE-MR8ZF807WLuQiJR-2y20DqCkAgf3Z1c-_2LYzxEVMrTMWQB9fpMQ/exec",
-      {
-        method: "POST",
-        mode: "no-cors",
-        headers: {
-          "Content-Type": "application/x-www-form-urlencoded",
-        },
-        body,
-      }
-    );
+      await fetch(
+        "https://script.google.com/macros/s/AKfycbyX5hZVLQJV_G3gE-MR8ZF807WLuQiJR-2y20DqCkAgf3Z1c-_2LYzxEVMrTMWQB9fpMQ/exec",
+        {
+          method: "POST",
+          mode: "no-cors",
+          headers: {
+            "Content-Type": "application/x-www-form-urlencoded",
+          },
+          body,
+        }
+      );
 
-    setOpen(false);
-    toast.success("🎉 Order placed successfully!");
+      setOpen(false);
+      toast.success("🎉 Order placed successfully!");
+    } catch (error) {
+      toast.error("Something went wrong. Please try again.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -94,6 +102,7 @@ const App = () => {
         formRef={formRef}
         onClose={() => setOpen(false)}
         onSubmit={submit}
+        loading={loading}
       />
       <ImageViewer
         open={viewerOpen}

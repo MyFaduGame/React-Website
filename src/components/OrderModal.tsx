@@ -37,6 +37,7 @@ interface OrderModalProps {
   formRef: React.RefObject<any>;
   onClose: () => void;
   onSubmit: () => void;
+  loading?: boolean;
 }
 
 const OrderModal: React.FC<OrderModalProps> = ({
@@ -49,6 +50,7 @@ const OrderModal: React.FC<OrderModalProps> = ({
   formRef,
   onClose,
   onSubmit,
+  loading = false,
 }) => (
   <Modal open={open} onClose={onClose}>
     <Modal.Header>
@@ -124,10 +126,15 @@ const OrderModal: React.FC<OrderModalProps> = ({
       </Form>
     </Modal.Body>
     <Modal.Footer>
-      <Button appearance="primary" onClick={onSubmit}>
-        Submit
+      <Button
+        appearance="primary"
+        onClick={onSubmit}
+        loading={loading}
+        disabled={loading}
+      >
+        {loading ? "Submitting..." : "Submit"}
       </Button>
-      <Button appearance="subtle" onClick={onClose}>
+      <Button appearance="subtle" onClick={onClose} disabled={loading}>
         Cancel
       </Button>
     </Modal.Footer>
