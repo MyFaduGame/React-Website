@@ -49,7 +49,12 @@ const App = () => {
   };
 
   const openGallery = (imgs: string[]) => {
-    setViewerImages(imgs.map((i) => ({ original: i })));
+    setViewerImages(
+      imgs.map((i) => ({
+        original: i,
+        thumbnail: i,
+      }))
+    );
     setViewerOpen(true);
   };
 
@@ -96,7 +101,7 @@ const App = () => {
       }}
     >
       <Header />
-      <Banner />
+      <Banner onImageClick={openGallery} />
       <VStack spacing={4} style={{ marginTop: 30 }}>
         <Text as="h1" size={40} weight="bold" align="center">
           Trending Innerwear ✨

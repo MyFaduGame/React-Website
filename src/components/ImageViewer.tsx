@@ -1,43 +1,38 @@
 import React from "react";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
+import "./imageViewer.css";
 
-interface ImageViewerProps {
+interface Props {
   open: boolean;
   images: any[];
   onClose: () => void;
 }
 
-const ImageViewer: React.FC<ImageViewerProps> = ({ open, images, onClose }) => {
+const ImageViewer: React.FC<Props> = ({ open, images, onClose }) => {
   if (!open) return null;
+
   return (
-    <div
-      onClick={onClose}
-      style={{
-        position: "fixed",
-        inset: 0,
-        background: "rgba(0,0,0,0.55)",
-        backdropFilter: "blur(10px)",
-        zIndex: 9999,
-      }}
-    >
-      <div
-        onClick={(e) => e.stopPropagation()}
-        style={{
-          position: "absolute",
-          top: "50%",
-          left: "50%",
-          transform: "translate(-50%, -50%)",
-          maxWidth: "90vw",
-          maxHeight: "90vh",
-        }}
-      >
+    <div className="ig-overlay">
+      <div className="ig-close" onClick={onClose}>
+        ✕
+      </div>
+
+      <div className="ig-wrapper">
         <ImageGallery
           items={images}
           showPlayButton={false}
           showFullscreenButton={false}
-          autoPlay={false}
-          slideInterval={2000}
+          showBullets={false}
+          showNav={true}
+          showThumbnails={true}
+          thumbnailPosition="bottom"
+          lazyLoad
+          useBrowserFullscreen={false}
+          slideOnThumbnailOver={false}
+          disableThumbnailScroll={false}
+          enableSwipe={true}
+          enableZoom={true}
         />
       </div>
     </div>
