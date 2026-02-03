@@ -9,6 +9,7 @@
     "react-toastify": "^11.0.5",
     "rsuite": "^6.1.1"
   },
+  "homepage": "https://myfadugame.github.io/react-website",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
